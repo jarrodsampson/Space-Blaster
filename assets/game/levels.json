@@ -1,0 +1,98 @@
+{
+  "levelsData": {
+	"info": "Space Blaster Data",
+	"playerLives": 3,
+	"levels": [
+		{
+			"id": 1,
+			"name": "Level 1",
+			"timeLimit": 50,
+			"rockGainScore": 20,
+			"rocksNeeded": 50,
+			"rockReleaseTimer": 5000,
+			"starNumbers": 2,
+			"rockNumbers": 10,
+			"trashPileNumbers": 1,
+			"trashReleaseTimer": 15000,
+			"trashGainScore": 100,
+			"starScore": 100,
+			"starScoreExtraTime": 3
+		},
+		{
+			"id": 2,
+			"name": "Level 2",
+			"timeLimit": 50,
+			"rockGainScore": 20,
+			"rocksNeeded": 100,
+			"rockReleaseTimer": 5000,
+			"starNumbers": 3,
+			"rockNumbers": 20,
+			"trashPileNumbers": 1,
+			"trashReleaseTimer": 15000,
+			"trashGainScore": 100,
+			"starScore": 100,
+			"starScoreExtraTime": 10
+		},
+		{
+			"id": 3,
+			"name": "Level 3",
+			"timeLimit": 50,
+			"rockGainScore": 20,
+			"rocksNeeded": 300,
+			"rockReleaseTimer": 4000,
+			"starNumbers": 4,
+			"rockNumbers": 30,
+			"trashPileNumbers": 1,
+			"trashReleaseTimer": 20000,
+			"trashGainScore": 100,
+			"starScore": 100,
+			"starScoreExtraTime": 12
+		},
+		{
+			"id": 4,
+			"name": "Level 4",
+			"timeLimit": 50,
+			"rockGainScore": 30,
+			"rocksNeeded": 600,
+			"rockReleaseTimer": 4000,
+			"starNumbers": 6,
+			"rockNumbers": 35,
+			"trashPileNumbers": 2,
+			"trashReleaseTimer": 10000,
+			"trashGainScore": 100,
+			"starScore": 100,
+			"starScoreExtraTime": 12
+		},
+		{
+			"id": 5,
+			"name": "Level 5",
+			"timeLimit": 70,
+			"rockGainScore": 35,
+			"rocksNeeded": 900,
+			"rockReleaseTimer": 1000,
+			"starNumbers": 9,
+			"rockNumbers": 12,
+			"trashPileNumbers": 2,
+			"trashReleaseTimer": 10000,
+			"trashGainScore": 100,
+			"starScore": 110,
+			"starScoreExtraTime": 20
+		},
+		{
+			"id": 6,
+			"name": "Level 6",
+			"timeLimit": 60,
+			"rockGainScore": 45,
+			"rocksNeeded": 1200,
+			"rockReleaseTimer": 500,
+			"starNumbers": 1,
+			"rockNumbers": 5,
+			"trashPileNumbers": 2,
+			"trashReleaseTimer": 10000,
+			"trashGainScore": 100,
+			"starScore": 600,
+			"starScoreExtraTime": 20
+		}
+	]
+  }
+}

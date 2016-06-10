@@ -1,0 +1,22 @@
+{
+  "bonuslevelsData": {
+	"info": "Bonus Data",
+	"levels": [
+		{
+			"id": 1,
+			"name": "Bonus Level 1",
+			"timeLimit": 30,
+			"rockGainScore": 0,
+			"rocksNeeded": 0,
+			"rockReleaseTimer": 0,
+			"starNumbers": 0,
+			"rockNumbers": 0,
+			"trashPileNumbers": 1,
+			"trashReleaseTimer": 2000,
+			"trashGainScore": 100,
+			"starScore": 0,
+			"starScoreExtraTime": 0
+		}
+	]
+  }
+}

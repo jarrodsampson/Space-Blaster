@@ -1,0 +1,68 @@
+{
+  "shipData": {
+	"info": "Ship Specifications Data",
+	"ships": [
+		{
+			"id": 1,
+			"name": "Commander",
+			"drag": 300,
+			"fireRate": 500,
+			"acceleration": 300,
+			"bulletType": "lazer1",
+			"sound": "explosion",
+			"orbs": 0,
+			"fire": 0,
+			"rocket": 0,
+			"fuel": 0,
+			"cpu": 0,
+			"wrench": 0
+		},
+		{
+			"id": 2,
+			"name": "Blue Sky",
+			"drag": 200,
+			"fireRate": 300,
+			"acceleration": 600,
+			"bulletType": "lazer2",
+			"sound": "bluebeam",
+			"orbs": 2,
+			"fire": 1,
+			"rocket": 1,
+			"fuel": 1,
+			"cpu": 1,
+			"wrench": 2
+		},
+		{
+			"id": 3,
+			"name": "Ice Cube",
+			"drag": 150,
+			"fireRate": 200,
+			"acceleration": 650,
+			"bulletType": "lazer4",
+			"sound": "icebeam",
+			"orbs": 10,
+			"fire": 2,
+			"rocket": 4,
+			"fuel": 2,
+			"cpu": 10,
+			"wrench": 6
+
+		},
+		{
+			"id": 4,
+			"name": "Apollo 18",
+			"drag": 100,
+			"fireRate": 80,
+			"acceleration": 700,
+			"bulletType": "lazer3",
+			"sound": "explosion",
+			"orbs": 25,
+			"fire": 10,
+			"rocket": 21,
+			"fuel": 10,
+			"cpu": 35,
+			"wrench": 10
+		}
+	]
+  }
+}

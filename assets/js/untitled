@@ -1,0 +1,17 @@
+,
+    shakeCamera: function(){
+        var min = -2;
+                var max = 2;
+                this.game.camera.x+= Math.floor(Math.random() * (max - min + 1)) + min;
+                this.game.camera.y+= Math.floor(Math.random() * (max - min + 1)) + min;
+    },
+    resetCamera: function() {
+        //Reset camera after shake
+                this.game.camera.x = 2;
+                this.game.camera.y = 2;
+    }
+
+    var t = this.game.time.create(true)
+                t.repeat(20,10,this.shakeCamera,this);
+                t.start();
+                t.onComplete.addOnce(this.resetCamera,this);
